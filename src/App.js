@@ -98,7 +98,7 @@ function App(props) {
 
   const listHeadingRef = useRef(null);
   const prevTaskLength = usePrevious(tasks.length);
-  const alternativeUrl = "http://todo.org";
+  const alternativeUrl = "https://todo.org";
 
   // function getIntegrity() {
   //   "sha384-oqVuAfXRKap7fdgcCY5uykM6+R9GqQ8K/uxy9rx7HNQlGYl1kPzQho1wx4JwY8wC";
