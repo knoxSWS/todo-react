@@ -14,11 +14,11 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install Dependencies
-        uses: borales/actions-yarn@v2.3.0
+        uses: borales/actions-yarn@v3.0.0
         with: 
           cmd: install
       - name: Generate Coverage Report
-        uses: borales/actions-yarn@2.3.0
+        uses: borales/actions-yarn@v3.0.0
         with: 
           cmd: test       
       - name: SonarCloud Scan
